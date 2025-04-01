@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "268164661999",
+    "project_id": "library-a7a77",
+    "storage_bucket": "library-a7a77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268164661999:android:d9ef794df3df025725911a",
+        "android_client_info": {
+          "package_name": "com.example.library"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDgZR22Jp2SJ7zjNSmWFTHQldGrR_oBCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/back01"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:id="@+id/toolbarRl"
+        android:layout_width="match_parent"
+        android:layout_height="216dp"
+        android:background="@drawable/shape_home">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="240dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="114dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="118dp"
+            app:cardCornerRadius="30dp">
+
+            <ImageView
+                android:id="@+id/iconIv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_200"
+                android:backgroundTint="@color/teal_200"
+                android:backgroundTintMode="multiply"
+                android:hapticFeedbackEnabled="true"
+                android:src="@drawable/book_home" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/noAccountTv"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="225dp"
+        android:layout_marginEnd="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Text box cu citat -->
+            <TextView
+                android:id="@+id/textQuotes"
+                android:layout_width="match_parent"
+                android:layout_height="99dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_editext01"
+                android:gravity="center"
+                android:text="@string/quote"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <!-- Input de text box -->
+
+            <EditText
+                android:id="@+id/inputQuotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_editext01"
+                android:gravity="start|top"
+                android:hint="Insert your favorit qotes"
+                android:inputType="textMultiLine"
+                android:lines="4"
+                android:maxLines="10" />
+
+            <ImageButton
+                android:id="@+id/myImageButton"
+                android:layout_width="87dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="20dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:contentDescription=""
+                android:onClick="onImageButtonClick"
+                android:src="@drawable/hand" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

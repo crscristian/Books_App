@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back01"
+    android:layout_marginTop="10dp"
+    tools:context=".SettingFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_editext01"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="10.0sp"
+            android:scrollbars="vertical"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp"
+            tools:listitem="@layout/list_item" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

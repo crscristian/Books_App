@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/back01"
+    tools:context=".BooksFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/add_book_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="150dp"
+            android:minHeight="100dp"
+            android:minWidth="100dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="35dp"
+            android:id="@+id/image_bookMcardView"
+            android:elevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/image_bookEt"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_search_image_gray" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/add_book_layout"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="225dp"
+        android:layout_marginEnd="30dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--title_book-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/book_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                app:hintEnabled="false">
+
+                <EditText
+                    android:id="@+id/book_titleEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:height="10px"
+                    android:background="@drawable/shape_editext01"
+                    android:drawableStart="@drawable/ic_book_title"
+                    android:drawablePadding="10dp"
+                    android:hint="Book title"
+                    android:inputType="textCapWords"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/gray01" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!--name author-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/name_author"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/book_title"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:hintEnabled="false">
+
+                <EditText
+                    android:id="@+id/name_authorEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shape_editext01"
+                    android:drawableStart="@drawable/ic_author_name"
+                    android:drawablePadding="10dp"
+                    android:hint="Author's name"
+                    android:inputType="textCapWords"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/gray01" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name_author"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_description_book"
+                    android:fontFamily="serif"
+                    android:text="Description about book*"
+                    android:textColor="@color/description_color"
+                    android:textSize="16sp" />
+
+
+                <!--  //description_book-->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/description_book"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_description"
+                    android:layout_marginTop="5dp"
+                    app:hintEnabled="false">
+
+                    <EditText
+                        android:id="@+id/description_bookEt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="80dp"
+                        android:background="@drawable/shape_editext01"
+                        android:drawablePadding="10dp"
+                        android:gravity="left|top"
+                        android:hint=""
+                        android:inputType="textCapWords|textMultiLine"
+                        android:padding="10dp"
+                        android:scrollbarAlwaysDrawVerticalTrack="true"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/gray01" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/add_bookBtn"
+                    android:layout_width="128dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/name_author"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="75dp"
+                    android:background="@drawable/shape_button01"
+                    android:text="Add Book"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

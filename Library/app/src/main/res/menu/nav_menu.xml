@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_gray"
+            android:title="Home"/>
+
+        <item
+            android:id="@+id/nav_books"
+            android:icon="@drawable/ic_add_book_gray"
+            android:title="Add Book"/>
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_book_gray"
+            android:title="Books"/>
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info_gray"
+            android:title="About Us"/>
+    </group>
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout_gray"
+                android:title="Logout"/>
+        </menu>
+
+    </item>
+
+</menu>

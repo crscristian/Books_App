@@ -106,11 +106,9 @@ public class BooksFragment extends Fragment {
 
         userEmail = null;
         if (currentUser != null) {
-            // Extrage adresa de email a utilizatorului
+            // get email user
             userEmail = currentUser.getEmail();
 
-            // Acum poți folosi userEmail în codul tău
-            // De exemplu, poți afișa adresa de email într-un TextView sau să faci alte operații cu ea.
             Log.d("FirebaseEmail", "Adresa de email: " + userEmail);
         } else {
             // Nu există utilizator autentificat

@@ -37,7 +37,7 @@ This Android application allows users to store and manage their favorite books i
 ![Library User](Assets/Lybrary_User.jpg)  
 
 ### 8. Application Menu  
-![Application Menu](Assets/Menu_App.jpg)  
+<img src="Assets/Menu_App.jpg" width="369" height="745">
 
 ## Technologies Used  
 

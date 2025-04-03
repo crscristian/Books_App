@@ -28,13 +28,13 @@ This Android application allows users to store and manage their favorite books i
 ![Book Management Layout](Assets/Layout_1.png)  
 
 ### 5. Add Book Details  
-![Add Book Details](Assets/Add_detail_book.jpg)  
+<img src="Assets/Add_detail_book.jpg" width="369" height="745">
 
 ### 6. Example of Added Books  
-![Example Books](Assets/Book_3.jpg)  
+<img src="Assets/Book_3.jpg" width="369" height="745">
 
 ### 7. User's Library View  
-![Library User](Assets/Lybrary_User.jpg)  
+<img src="Assets/Lybrary_User.jpg" width="369" height="745">
 
 ### 8. Application Menu  
 <img src="Assets/Menu_App.jpg" width="369" height="745">

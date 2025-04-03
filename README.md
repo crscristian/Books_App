@@ -44,7 +44,7 @@ This Android application allows users to store and manage their favorite books i
 - **Firebase Authentication** – Secure user login and registration.  
 - **Firebase Realtime Database** – Store and manage book data.  
 - **Android Studio** – Development environment.  
-- **Java/Kotlin** – Programming language for Android development.  
+- **Java/XML** – Used for Android UI design and logic implementation.  
 
 ## Installation  
 

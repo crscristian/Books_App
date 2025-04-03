@@ -50,4 +50,4 @@ This Android application allows users to store and manage their favorite books i
 
 1. Clone the repository:  
    ```sh
-   git clone https://github.com/yourusername/virtual-library.git
+   git clone [https://github.com/crscristian/Books_App.git]

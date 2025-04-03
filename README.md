@@ -16,28 +16,28 @@ This Android application allows users to store and manage their favorite books i
 ## Screenshots
 
 ### 1. Create Account  
-![Create Account](Create_account.png)  
+![Create Account](Assets/Create_account.png)  
 
 ### 2. Login Interface  
-![Login Interface](Login_account.png)  
+![Login Interface](Assets/Login_account.png)  
 
 ### 3. Main Interface  
-![Main Interface](First_Interface.png)  
+![Main Interface](Assets/First_Interface.png)  
 
 ### 4. Book Management Layout  
-![Book Management Layout](Layout_1.png)  
+![Book Management Layout](Assets/Layout_1.png)  
 
 ### 5. Add Book Details  
-![Add Book Details](Add_detail_book.jpg)  
+![Add Book Details](Assets/Add_detail_book.jpg)  
 
 ### 6. Example of Added Books  
-![Example Books](Book_3.jpg)  
+![Example Books](Assets/Book_3.jpg)  
 
 ### 7. User's Library View  
-![Library User](Lybrary_User.jpg)  
+![Library User](Assets/Lybrary_User.jpg)  
 
 ### 8. Application Menu  
-![Application Menu](Menu_App.jpg)  
+![Application Menu](Assets/Menu_App.jpg)  
 
 ## Technologies Used  
 

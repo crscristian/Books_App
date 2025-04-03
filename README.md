@@ -31,7 +31,7 @@ This Android application allows users to store and manage their favorite books i
 <img src="Assets/Add_detail_book.jpg" width="369" height="745">
 
 ### 6. Example of Added Books  
-<img src="Assets/Book_3.jpg" width="369" height="745">
+<img src="Assets/Book_3.jpg" width="369" height="500">
 
 ### 7. User's Library View  
 <img src="Assets/Lybrary_User.jpg" width="369" height="745">
